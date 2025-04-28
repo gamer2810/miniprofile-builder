@@ -172,7 +172,8 @@
                             <iframe
                                 title="Steam Mini Profile Preview"
                                 src={iframeSrc}
-                                class="absolute top-0 left-0 w-full h-full border-0 rounded"
+								allowtransparency="true"
+								class="absolute top-0 left-0 w-full h-full border-0 rounded"
                                 loading="lazy"
                                 name="steamMiniProfilePreview"
                                 scrolling="no"
