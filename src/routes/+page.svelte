@@ -133,7 +133,7 @@
             <label class="label">
 				<span>Favorite Game App ID (Optional)</span>
 				<input class="input" type="text" placeholder="e.g., 730 (CS:GO)" bind:value={appId} />
-                <small>Displays playtime for a specific game.</small>
+                <small>Displays playtime for a specific game.<br>Requires "Game Details" privacy setting set to "Public".</small>
 				<br>
 				<small>Find Game's App ID at <a class="anchor-font-color" href="https://steamdb.info/search/">https://steamdb.info/search/</a></small>
 			</label>
