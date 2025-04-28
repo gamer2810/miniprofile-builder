@@ -115,6 +115,7 @@
 			<label class="label">
 				<span>Steam Account ID (Required)</span>
 				<input class="input" type="text" placeholder="e.g., 7656119..." bind:value={accountId} required />
+				<small>Find yours at <a class="anchor-font-color" href="https://steamdb.info/calculator/">https://steamdb.info/calculator/</a></small>
                 {#if !accountId && currentEmbedUrl !== baseUrl}
                     <small class="text-error-500">Account ID is required for the embed to work.</small>
                 {/if}
@@ -133,6 +134,8 @@
 				<span>Favorite Game App ID (Optional)</span>
 				<input class="input" type="text" placeholder="e.g., 730 (CS:GO)" bind:value={appId} />
                 <small>Displays playtime for a specific game.</small>
+				<br>
+				<small>Find Game's App ID at <a class="anchor-font-color" href="https://steamdb.info/search/">https://steamdb.info/search/</a></small>
 			</label>
 
             <div class="flex items-center space-x-2 cursor-pointer p-2 rounded-container-token hover:bg-surface-100 dark:hover:bg-surface-800" on:click={() => interactive = !interactive} on:keypress>
@@ -163,9 +166,8 @@
 				</div>
 			</div>
 
-			<div class="card variant-soft p-4 md:p-6 lg:p-8 flex-grow flex flex-col">
-				<h3 class="h3 mb-4">Preview</h3>
-
+			<h3 class="h3 mb-4">Preview</h3>
+			<div class="flex-grow flex flex-col">
 				<div class="relative w-full" style="padding-bottom: 52.5%;"> 
 					{#key iframeSrc} 
 						{#if accountId}
