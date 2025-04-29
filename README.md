@@ -8,3 +8,9 @@ Check that repository if you want more information on how the miniprofiles are g
 
 ## Usage
 Visit https://gamer2810.github.io/miniprofile-builder/
+
+## Technical details
+Made using [SvelteKit and their static adapter](https://svelte.dev/docs/kit/adapter-static).
+
+Theme used is [Fennec](https://www.skeleton.dev/docs/design/themes).
+
