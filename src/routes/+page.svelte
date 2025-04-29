@@ -99,7 +99,7 @@
         </p>
         <nav class="text-sm text-surface-500 dark:text-surface-500 mt-2 space-x-3">
             <span>Source:</span>
-            <a href="https://github.com/gamer2810/steam-miniprofile" target="_blank" rel="noopener noreferrer" class="anchor">GitHub Repo</a>
+            <a href="https://github.com/gamer2810/miniprofile-builder" target="_blank" rel="noopener noreferrer" class="anchor">GitHub Repo</a>
             <span>|</span>
              <a href="https://ark.k3k.dev" target="_blank" rel="noopener noreferrer" class="anchor">Developer Blog (ark.k3k.dev)</a>
         </nav>
